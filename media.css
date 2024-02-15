@@ -1,0 +1,98 @@
+@media (min-width:480px) and (max-width:767px)
+{
+
+body
+{
+    overflow-x: hidden;
+}
+
+/* Navigation-bar starts */
+
+.navbar-nav
+{
+    background-color: rgba(192, 192, 192, 0.479);
+}
+.nav-link
+{
+    color: black;
+}
+
+/* Navigation-bar ends */
+
+/* Intro starts */
+
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 165px;
+}
+.main_row h1
+{
+    font-size: 30px;
+}
+
+.main_row h2
+{
+    font-size: 20px;
+}
+
+.intro img
+{
+    margin-left: 50px;
+    height: 200px;
+    width: 150px;
+}
+
+/* Intro ends */
+
+/* About starts */
+
+.title h5
+{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left:-43px;
+}
+.title h2
+{
+    font-size: 20px;
+    margin-left:-43px;
+}
+.para p
+{
+    margin-left:-43px;
+}
+
+.section-title h5
+{
+    font-size: 15px;
+    margin-left:-22px; 
+}
+
+.skills-content
+{
+    margin-left:-22px;
+}
+
+.pro
+{
+    margin-top: 20px;
+}
+
+}
+
+/* About ends */
+
+@media (min-width:768px) and (max-width:991px)
+{
+    .navbar-nav
+{
+    background-color: silver;
+}
+.nav-link
+{
+    color: black;
+}
+
+}
